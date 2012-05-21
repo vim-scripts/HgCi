@@ -1,9 +1,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "  Plugin written and maintained by Gael Induni
 " This is HgCi plugin to commit on save
-"  Last modified: Mon 21 May 2012 04:00:39 PM CEST
-"  Version 0.1
+"  Last modified: Mon 21 May 2012 04:10:58 PM CEST
+"  Version 0.2
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" To be always up-to-date:
+"" GetLatestVimScripts: 4080 1 :AutoInstall: HgCi
 ""
 "" Problems when saving many times without leaving Vim
 
@@ -11,7 +13,7 @@ if exists("g:loaded_HgCi") && g:loaded_HgCi
 	finish
 endif
 let g:loaded_HgCi = 1
-let g:HgCi_version = 0.1
+let g:HgCi_version = 0.2
 
 function HgCi(...)
 	if a:0 > 0 && a:1 != ""
